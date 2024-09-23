@@ -1,0 +1,5 @@
+[WARN] [2024-09-19 23:36:25] org.apache.zookeeper.ClientCnxn$SendThread.run(1266) | An exception was thrown while closing send thread for session 0x10008d34c280005.
+EndOfStreamException: Unable to read additional data from server sessionid 0x10008d34c280005, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
